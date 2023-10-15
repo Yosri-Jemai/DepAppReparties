@@ -11,7 +11,7 @@ public class Client {
         try
         {
 
-            InetAddress IA = InetAddress.getByName("192.168.218.20");
+            InetAddress IA = InetAddress.getByName("192.168.147.20");
             InetSocketAddress ISA = new InetSocketAddress(IA,1234);
 
             Socket s = new Socket();
