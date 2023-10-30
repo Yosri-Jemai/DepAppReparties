@@ -9,19 +9,19 @@ import java.net.Socket;
 public class Server {
     public static void main(String[] args) {
         try (ServerSocket ss = new ServerSocket(1234)) {
-            Socket clientSocket = ss.accept();
+            Socket client = ss.accept();
 
-            InputStream input = clientSocket.getInputStream();
-            ObjectInputStream oi = new ObjectInputStream(input);
+            InputStream is = client.getInputStream();
+            ObjectInputStream ois = new ObjectInputStream(is);
 
 
-            Operation op = (Operation) oi.readObject();
+            Operation op = (Operation) ois.readObject();
 
             int nb1 = op.getNb1();
             int nb2 = op.getNb2();
             char ops = op.getOp();
 
-            int res = 0;
+            int res;
 
             switch (ops) {
                 case '+':
@@ -36,16 +36,16 @@ public class Server {
                 case '/':
                     res = nb1 / nb2;
                     break;
+                default:res=0;
             }
 
-            // result in the Operation object
+            OutputStream os = client.getOutputStream();
+
             op.setRes(res);
 
-            // Set up output stream to send the modified Operation object
-            OutputStream output = clientSocket.getOutputStream();
-            ObjectOutputStream oo = new ObjectOutputStream(output);
+            ObjectOutputStream oos = new ObjectOutputStream(os);
 
-            oo.writeObject(op);
+            oos.writeObject(op);
 
         } catch (IOException | ClassNotFoundException e) {
             System.out.println(e.getMessage());

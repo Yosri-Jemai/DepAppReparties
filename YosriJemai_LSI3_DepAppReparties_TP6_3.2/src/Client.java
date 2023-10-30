@@ -1,43 +1,28 @@
-import java.io.*;
+
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 
 public class Client {
-    public static void main(String[] args) {
-        try {
-            // Define the server's IP address and port
-            InetAddress serverAddress = InetAddress.getByName("192.168.1.2");
-            InetSocketAddress serverSocketAddress = new InetSocketAddress(serverAddress, 1234);
+    public static void main(String[] args) throws Exception {
+        Socket client = new Socket("localhost",500);
+        System.out.println("Je suis connecté");
 
-            // Create a socket to cx    onnect to the server
-            Socket clientSocket = new Socket();
+        InputStream is = client.getInputStream();
+        OutputStream os = client.getOutputStream();
 
-            // Connect to the server
-            clientSocket.connect(serverSocketAddress);
+        ObjectInputStream ois = new ObjectInputStream(is);
+        ObjectOutputStream oos = new ObjectOutputStream(os);
 
-            // Set up output stream to send an Operation object to the server
-            OutputStream output = clientSocket.getOutputStream();
-            ObjectOutputStream os = new ObjectOutputStream(output);
+        Operation op = new Operation(5,3,'+');
+        oos.writeObject(op);
 
-            // Create an Operation object (40 * 20)
-            Operation op = new Operation(40, 20, '+');
+        op = (Operation) ois.readObject();
 
-            // Send the Operation object to the server
-            os.writeObject(op);
-
-            // Set up input stream to receive a modified Operation object from the server
-            InputStream input = clientSocket.getInputStream();
-            ObjectInputStream is = new ObjectInputStream(input);
-
-            // Receive and read the modified Operation object
-            op = (Operation) is.readObject();
-
-            // Print the result
-            System.out.println("Result received from the server: " + op.getRes());
-        } catch (Exception e) {
-            System.out.println("Client: An error occurred - " + e.getMessage());
-            throw new RuntimeException(e);
-        }
+        System.out.println(op.getRes());
     }
 }

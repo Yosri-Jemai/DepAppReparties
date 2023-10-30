@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Server extends Thread {
+public class Server  {
     public static void main(String[] args) {
         int ord = 0 ;
 
@@ -17,7 +17,7 @@ public class Server extends Thread {
 
                 client.start();
 
-                socket.close();
+                //socket.close();
 
             }
         } catch (IOException e) {
