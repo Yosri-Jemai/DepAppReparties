@@ -1,12 +1,8 @@
 package Client;
 
-import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
-import java.util.Scanner;
-
 public class ClientTime {
     public static final int PORT=1212;
     public static byte[] buffer = new byte[1024];

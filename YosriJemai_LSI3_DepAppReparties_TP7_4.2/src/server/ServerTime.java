@@ -1,12 +1,10 @@
 package server;
-
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.text.SimpleDateFormat;
 import java.text.spi.DateFormatProvider;
 import java.util.Date;
-
 public class ServerTime {
     public static final int PORT=1212;
     public static byte[] buffer = new byte[1024];

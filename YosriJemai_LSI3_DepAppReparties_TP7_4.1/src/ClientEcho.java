@@ -26,7 +26,6 @@ public class ClientEcho {
         System.out.println(new String(toreceive.getData(),0,toreceive.getLength()));
 
 
-
     }
 
 }
