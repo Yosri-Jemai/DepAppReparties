@@ -10,8 +10,8 @@ public class ConversionClient {
 
         {
             try {
-                stub = (IConversion) Naming.lookup("rmi://localhost:1098/ConversionObject");
-                double montantConv =stub.convertirMontant(15.3);
+                stub = (IConversion) Naming.lookup("rmi://localhost:1095/ConversionObject");
+                double montantConv =stub.convertirMontant(12.7);
                 System.out.println(montantConv);
             } catch (Exception e) {
                 e.printStackTrace();

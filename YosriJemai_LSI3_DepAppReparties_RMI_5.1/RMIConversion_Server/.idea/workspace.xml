@@ -7,24 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdb777f9-926d-46df-9326-97e7d2ef9b39" name="Changes" comment="'RMI'">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RMIConversion_Client/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RMIConversion_Client/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RMIConversion_Client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RMIConversion_Client/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RMIConversion_Client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RMIConversion_Client/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RMIConversion_Client/RMIConversion_Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RMIConversion_Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rmiServer/ConversionServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rmiService/ConversionImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rmiService/IConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RMIConversion_Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RMIConversion_Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RMIConversion_Client/out/production/RMIConversion_Client/rmiClient/ConversionClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RMIConversion_Client/out/production/RMIConversion_Client/rmiClient/ConversionClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RMIConversion_Client/src/rmiClient/ConversionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RMIConversion_Client/src/rmiClient/ConversionClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RMIConversion_Server/rmiServer/ConversionServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RMIConversion_Server/rmiServer/ConversionServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rmiServer/ConversionServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rmiServer/ConversionServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Lenovo/OneDrive/Bureau/LSI3/TP/YosriJemai_LSI3_DepAppReparties/YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Client",
+    "last_opened_file_path": "C:/Users/Lenovo/OneDrive/Bureau/LSI3/TP/SOA2/YosriJemai_LSI3_SOA_TP5.1",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"

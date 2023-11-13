@@ -15,10 +15,10 @@ public class ConversionServer   {
     public static void main(String[] args) {
 
         try {
-            LocateRegistry.createRegistry(1098);
+            LocateRegistry.createRegistry(1095);
             ConversionImpl od = new ConversionImpl();
             System.out.println(od.toString());
-            Naming.rebind("rmi://localhost:1098/ConversionObject",od);
+            Naming.rebind("rmi://localhost:1095/ConversionObject",od);
         } catch (RemoteException | MalformedURLException e) {
             throw new RuntimeException(e);
         }
