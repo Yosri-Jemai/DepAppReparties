@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RMIBanque_Server:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="48862264-a316-4637-ad08-053624502e99" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Client/out/production/RMIConversion_Client/rmiClient/ConversionClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Client/out/production/RMIConversion_Client/rmiClient/ConversionClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Client/src/rmiClient/ConversionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Client/src/rmiClient/ConversionClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Server/out/production/RMIConversion_Server/rmiServer/ConversionServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Server/out/production/RMIConversion_Server/rmiServer/ConversionServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Server/src/rmiServer/ConversionServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Server/src/rmiServer/ConversionServer.java" afterDir="false" />
+    <list default="true" id="94836f3a-1a33-4575-8636-12568f1cc5df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../RMIBanque_Client/RMIBanque_Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RMIBanque_Server_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RMIBanque_Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/RMIBanque_Server_jar/RMIBanque_Server.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/metier/Compte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rmiServer/BanqueServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rmiService/BanqueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rmiService/IBanque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +31,9 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../RMIBanque_Server\exportToHTML" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -26,7 +42,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,7 +50,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2Y7nmaio2g8Fh1BVKYbHKKj0Yb3" />
+  <component name="ProjectId" id="2Y7qRG8AZzN9S9l5mJmINVG8GVb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -44,40 +60,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Lenovo/OneDrive/Bureau/LSI3/TP/YosriJemai_LSI3_DepAppReparties/YosriJemai_LSI3_DepAppReparties_RMI_5.2/RMIBanque_Server",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.47586206"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\OneDrive\Bureau\LSI3\TP\YosriJemai_LSI3_DepAppReparties\YosriJemai_LSI3_DepAppReparties_RMI_5.2" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="BanqueServer" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rmiServer.BanqueServer" />
-      <module name="RMIBanque_Server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rmiServer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="48862264-a316-4637-ad08-053624502e99" name="Changes" comment="" />
-      <created>1699885645281</created>
+      <changelist id="94836f3a-1a33-4575-8636-12568f1cc5df" name="Changes" comment="" />
+      <created>1699886956190</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1699885645281</updated>
+      <updated>1699886956190</updated>
     </task>
     <servers />
   </component>
@@ -91,5 +91,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
