@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RMIBanque_Server">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RMIBanque_Server/out/artifacts/RMIBanque_Server_jar/RMIBanque_Server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

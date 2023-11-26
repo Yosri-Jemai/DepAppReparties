@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff3ebc8-023d-4a6d-b2d0-ead237629a5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/.idea/YosriJemai_LSI3_DepAppReparties_RMI_5.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/.idea/libraries/RMIBanque_Server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RMIConversion_Client/rmiClient/ConversionClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RMIConversion_Client/rmiClient/ConversionClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rmiClient/ConversionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rmiClient/ConversionClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RMIConversion_Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RMIConversion_Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RMIConversion_Server/out/production/RMIConversion_Server/rmiServer/ConversionServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RMIConversion_Server/out/production/RMIConversion_Server/rmiServer/ConversionServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RMIConversion_Server/src/rmiServer/ConversionServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RMIConversion_Server/src/rmiServer/ConversionServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/RMIBanque_Client/RMIBanque_Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/RMIBanque_Client/RMIBanque_Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/RMIBanque_Server/.idea/artifacts/RMIBanque_Server_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/RMIBanque_Server/.idea/artifacts/RMIBanque_Server_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/RMIBanque_Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../YosriJemai_LSI3_DepAppReparties_RMI_5.2/RMIBanque_Server/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +52,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/OneDrive/Bureau/LSI3/TP/YosriJemai_LSI3_DepAppReparties/YosriJemai_LSI3_DepAppReparties_RMI_5.1/RMIConversion_Client&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Lenovo/OneDrive/Bureau/LSI3/TP/YosriJemai_LSI3_DepAppReparties/YosriJemai_LSI3_DepAppReparties_RMI_5.2/RMIBanque_Server",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
